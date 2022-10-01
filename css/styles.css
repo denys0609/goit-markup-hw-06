@@ -431,10 +431,10 @@ body {
   background-color: var(--color-blue);
   color: var(--color-white);
 }
-.footer-mailing label {
+/* .footer-mailing label {
   display: block;
   width: fit-content;
-}
+} */
 .footer-mailing .button {
   margin-left: 12px;
   width: 200px;
