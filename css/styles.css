@@ -360,6 +360,9 @@ body {
 .socials-list {
   display: flex;
 }
+.footer-mailing {
+  margin-left: 93px;
+}
 .footer .logo {
   text-decoration: none;
   color: var(--color-white);
@@ -390,7 +393,7 @@ body {
 .address-list .mail {
   color: var(--color-white);
 }
-.footer-socials .title {
+.footer-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -421,6 +424,45 @@ body {
 .social-link:focus {
   background-color: var(--color-blue);
   color: var(--color-white);
+}
+.footer-mailing .button {
+  margin-left: 12px;
+  width: 200px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--color-white);
+  background-color: var(--color-blue);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.footer-mailing input {
+  width: 358px;
+  height: 50px;
+  padding-left: 16px;
+  background-color: var(--backgroun-color-dark);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  color: rgba(255, 255, 255, 0.6);
+  outline: none;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+}
+.footer-mailing input::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  color: rgba(255, 255, 255, 0.6);
+}
+.mailing-icon {
+  margin-left: 10px;
+  fill: currentColor;
+}
+.inside-submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /* Портфоліо приклади робіт */
 .filter {
